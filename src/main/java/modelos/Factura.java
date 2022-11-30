@@ -68,4 +68,32 @@ public class Factura {
         assert this.promocionesAplicadas == promocionesAplicadas : "La lista de promociones no se asignó correctamente";
         assert this.mozo == mozo : "El mozo no se asignó correctamente";
     }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public Mesa getMesa() {
+        return mesa;
+    }
+
+    public List<Pedido> getPedidos() {
+        return pedidos;
+    }
+
+    public double getTotal() {
+        return total;
+    }
+
+    public FormaPago getFormaPago() {
+        return formaPago;
+    }
+
+    public List<Promocion> getPromocionesAplicadas() {
+        return promocionesAplicadas;
+    }
+
+    public Mozo getMozo() {
+        return mozo;
+    }
 }

@@ -5,6 +5,7 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.List;
 
+import modelos.*;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -39,9 +40,9 @@ public class testFactura {
 		String apellido= "perez";
 		Date fechaNacimiento = new GregorianCalendar(2000, 10,10).getTime();
 		int hijosACargo = 2;
-		double remuneracionbasica=1000;
+		double remuneracionbasica = 1000;
 		Sueldo sueldo = new Sueldo(remuneracionbasica);
-		Mozo mozo = new Mozo(nombre,apellido,fechaNacimiento,hijosACargo,sueldo);
+		mozo = new Mozo(nombre,apellido,fechaNacimiento,hijosACargo,sueldo);
 		
 		mesa = new Mesa(3,4);
 		
