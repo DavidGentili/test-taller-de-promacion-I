@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21f3cfaf-3f52-41d8-956b-81de66109125" name="Changes" comment="Se agrega reporte de cobertura">
-      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/testFactura.java" afterDir="false" />
+    <list default="true" id="21f3cfaf-3f52-41d8-956b-81de66109125" name="Changes" comment="Se agrega test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/Factura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -37,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_directory_selection": "C:/Users/320 i5/Documents/Facultad/Taller de Programacion 1/Practica/Trabajo practico Final/pruebas-unitarias-modelo/src/test/java/test/Mesa",
-    "last_opened_file_path": "C:/Users/320 i5/Documents/Facultad/Taller de Programacion 1/Practica/Trabajo practico Final/pruebas-unitarias-modelo/coverage report",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/320 i5/Documents/Facultad/Taller de Programacion 1/Practica/Trabajo practico Final/pruebas-unitarias-modelo/src/test/java/test/Mesa&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/320 i5/Documents/Facultad/Taller de Programacion 1/Practica/Trabajo practico Final/pruebas-unitarias-modelo/coverage report&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\320 i5\Documents\Facultad\Taller de Programacion 1\Practica\Trabajo practico Final\pruebas-unitarias-modelo\src\main\java" />
@@ -72,56 +75,7 @@
       <recent name="test.Mesa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.modelo in pruebas-unitarias-modelo">
-    <configuration name="TestAdministrador" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pruebas-unitarias-modelo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modelo" />
-      <option name="MAIN_CLASS_NAME" value="modelo.TestAdministrador" />
-      <option name="TEST_OBJECT" value="class" />
-      <dir value="$PROJECT_DIR$/src/test/java/modelo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAdministrador.test3_IniciaSesionUsuarioActivoContraseñaCorrecta" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pruebas-unitarias-modelo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modelo" />
-      <option name="MAIN_CLASS_NAME" value="modelo.TestAdministrador" />
-      <option name="METHOD_NAME" value="test3_IniciaSesionUsuarioActivoContraseñaCorrecta" />
-      <option name="TEST_OBJECT" value="method" />
-      <dir value="$PROJECT_DIR$/src/test/java/modelo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSistemaComandas" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pruebas-unitarias-modelo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="modelo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="modelo" />
-      <option name="MAIN_CLASS_NAME" value="modelo.TestSistemaComandas" />
-      <option name="TEST_OBJECT" value="class" />
-      <dir value="$PROJECT_DIR$/src/test/java/modelo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.test in pruebas-unitarias-modelo">
     <configuration name="modelo in pruebas-unitarias-modelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebas-unitarias-modelo" />
       <option name="TEST_OBJECT" value="directory" />
@@ -130,7 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="testProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test in pruebas-unitarias-modelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias-modelo" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testFactura" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebas-unitarias-modelo" />
       <extension name="coverage">
         <pattern>
@@ -139,26 +101,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="modelo" />
-      <option name="MAIN_CLASS_NAME" value="modelo.testProducto" />
+      <option name="MAIN_CLASS_NAME" value="modelo.testFactura" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSistemaPedidos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias-modelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modelo" />
+      <option name="MAIN_CLASS_NAME" value="modelo.testSistemaPedidos" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testSistemaPromocionProducto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pruebas-unitarias-modelo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="modelo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="modelo" />
+      <option name="MAIN_CLASS_NAME" value="modelo.testSistemaPromocionProducto" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TestAdministrador" />
-      <item itemvalue="JUnit.TestAdministrador.test3_IniciaSesionUsuarioActivoContraseñaCorrecta" />
-      <item itemvalue="JUnit.TestSistemaComandas" />
-      <item itemvalue="JUnit.testProducto" />
+      <item itemvalue="JUnit.test in pruebas-unitarias-modelo" />
+      <item itemvalue="JUnit.testFactura" />
+      <item itemvalue="JUnit.testSistemaPedidos" />
+      <item itemvalue="JUnit.testSistemaPromocionProducto" />
       <item itemvalue="JUnit.modelo in pruebas-unitarias-modelo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test in pruebas-unitarias-modelo" />
         <item itemvalue="JUnit.modelo in pruebas-unitarias-modelo" />
-        <item itemvalue="JUnit.testProducto" />
-        <item itemvalue="JUnit.TestAdministrador" />
-        <item itemvalue="JUnit.TestAdministrador.test3_IniciaSesionUsuarioActivoContraseñaCorrecta" />
-        <item itemvalue="JUnit.TestSistemaComandas" />
+        <item itemvalue="JUnit.testFactura" />
+        <item itemvalue="JUnit.testSistemaPromocionProducto" />
+        <item itemvalue="JUnit.testSistemaPedidos" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +282,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669806614660</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Se agrega test">
+      <created>1669809348555</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1669809348555</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Se agrega test">
+      <created>1669820316730</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1669820316730</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Se agrega test">
+      <created>1669820804547</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1669820804547</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,7 +327,8 @@
     <MESSAGE value="Modificaciones del modelo" />
     <MESSAGE value="Se corrigio test" />
     <MESSAGE value="Se agrega reporte de cobertura" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega reporte de cobertura" />
+    <MESSAGE value="Se agrega test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agrega test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pruebas_unitarias_modelo$test_in_pruebas_unitarias_modelo.ic" NAME="test in pruebas-unitarias-modelo Coverage Results" MODIFIED="1669797223019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

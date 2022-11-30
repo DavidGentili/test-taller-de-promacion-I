@@ -69,6 +69,8 @@ public class Factura {
         assert this.mozo == mozo : "El mozo no se asignó correctamente";
     }
 
+    //METODOS AGREGADOS PARA EL TESTEO
+
     public Date getFecha() {
         return fecha;
     }
