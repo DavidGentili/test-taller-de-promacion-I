@@ -3,6 +3,9 @@ package modelo;
 import java.util.ArrayList;
 import java.util.List;
 
+import excepciones.PromocionInexistenteException;
+import modelos.PromocionTemporal;
+import modelos.Sistema;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -38,55 +41,36 @@ public class testSistemaPromocionTemporal {
         promo = null;
     }
 
+    private void agregaPromocionTempral(PromocionTemporal promo){
+        sistema.agregarPromocionTemporal(promo);
+        Assert.assertTrue("Error al preparar el escenario", sistema.getPromocionesTemporales().contains(promo));
+    }
+
     @Test
     public void testAgregarPromocionProducto(){
-    	sistema.setModoOperacion(ModoOperacion.ADMINISTRADOR);
-  
-    	try{
-    		sistema.agregarPromocionTemporal(promo);
-    		Assert.assertTrue("No se ha añadido a la colección", sistema.getPromocionesTemporales().contains(promo));
-    	}catch(ProductoInexistenteException e) {
-    		Assert.fail("Se emitio una excepción no correspondida");
-    		
-    	}
-
+        sistema.agregarPromocionTemporal(promo);
+        Assert.assertTrue("No se ha añadido a la colección", sistema.getPromocionesTemporales().contains(promo));
     }
 
     @Test
     public void testEliminarPromocionTemporal1(){
-    	sistema.setModoOperacion(ModoOperacion.ADMINISTRADOR);
-  	  
-    	try{
-    		sistema.agregarPromocionTemporal(promo);
-    		Assert.assertTrue("No se ha añadido a la colección", sistema.getPromocionesTemporales().contains(promo));
-    	}catch(ProductoInexistenteException e) {
-    		Assert.fail("Se emitio una excepción no correspondida");
-    		
-    	}
-    	
-    	  
+        agregaPromocionTempral(promo);
     	try{
     		sistema.eliminarPromocionTemporal(promo);
     		Assert.assertTrue("No se ha eliminado de la colección", !sistema.getPromocionesTemporales().contains(promo));
-    	}catch(ProductoInexistenteException e) {
-    		Assert.fail("Se emitio una excepción no correspondida");
-    		
-    	}
+    	}catch (PromocionInexistenteException e) {
+            Assert.fail("Se emitio una excepción no correspondida");
+        }
 
     }
     @Test
     public void testEliminarPromocionTemporal2(){
-    	sistema.setModoOperacion(ModoOperacion.ADMINISTRADOR);
-  	  
-    	PromocionTemporal promo1 = new PromocionTemporal("nombre", FormaPago.EFECTIVO, 10, true, dias);
-    	  
     	try{
-    		sistema.eliminarPromocionTemporal(promo1);
-    		Assert.assertTrue("No se ha eliminado de la colección", !sistema.getPromocionesTemporales().contains(promo));
-    	}catch(ProductoInexistenteException e) {
-    		Assert.fail("Se emitio una excepción no correspondida");
-    		
-    	}
+    		sistema.eliminarPromocionTemporal(promo);
+            Assert.fail("No se emitio la excepcion correspondiente");
+    	} catch (PromocionInexistenteException e) {
+
+        }
 
     }
 }
