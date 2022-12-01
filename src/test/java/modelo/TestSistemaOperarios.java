@@ -184,5 +184,17 @@ public class TestSistemaOperarios {
         }
     }
 
+    @Test
+    public void testBuscarOperarioAdministrador(){
+        try{
+            Operario buscado = sistema.buscarOperario("ADMIN");
+            Assert.assertEquals("No se retorno el operario esperado", "ADMIN", buscado.getNombre());
+            Assert.assertEquals("No se retorno el operario esperado", "ADMIN", buscado.getApellido());
+
+        } catch (OperarioInexistenteException e) {
+            Assert.fail("Se emitio una excepcion no esperada");
+        }
+    }
+
 
 }

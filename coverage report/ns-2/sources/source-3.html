@@ -43,26 +43,26 @@ Current scope:     <a href="../../index.html">all classes</a>
   <td class="name">Factura</td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    100%
   </span>
   <span class="absValue">
-    (0/1)
+    (1/1)
   </span>
 </td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    100%
   </span>
   <span class="absValue">
-    (0/2)
+    (9/9)
   </span>
 </td>
 <td class="coverageStat">
   <span class="percent">
-    0%
+    100%
   </span>
   <span class="absValue">
-    (0/22)
+    (29/29)
   </span>
 </td>
 </tr>
@@ -91,7 +91,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp; * formaPago != null &lt;br&gt;
 &nbsp; * mozo != null &lt;br&gt;
 &nbsp; */
-<b class="nc">&nbsp;public class Factura {</b>
+<b class="fc">&nbsp;public class Factura {</b>
 &nbsp;    private Date fecha;
 &nbsp;    private Mesa mesa;
 &nbsp;    private List&lt;Pedido&gt; pedidos;
@@ -120,29 +120,59 @@ Current scope:     <a href="../../index.html">all classes</a>
 &nbsp;     * @param promocionesAplicadas Promociones aplicadas a la factura.
 &nbsp;     * @param mozo                 Mozo de la factura.
 &nbsp;     */
-<b class="nc">&nbsp;    public Factura(Date fecha, Mesa mesa, List&lt;Pedido&gt; pedidos, double total, FormaPago formaPago, List&lt;Promocion&gt; promocionesAplicadas, Mozo mozo) {</b>
-<b class="nc">&nbsp;        assert fecha != null : &quot;La fecha no puede ser nula&quot;;</b>
-<b class="nc">&nbsp;        assert mesa != null : &quot;La mesa no puede ser nula&quot;;</b>
-<b class="nc">&nbsp;        assert pedidos != null : &quot;La lista de pedidos no puede ser nula&quot;;</b>
-<b class="nc">&nbsp;        assert total &gt; 0 : &quot;El total debe ser mayor a 0&quot;;</b>
-<b class="nc">&nbsp;        assert formaPago != null : &quot;La forma de pago no puede ser nula&quot;;</b>
-<b class="nc">&nbsp;        assert mozo != null : &quot;El mozo no puede ser nulo&quot;;</b>
+<b class="fc">&nbsp;    public Factura(Date fecha, Mesa mesa, List&lt;Pedido&gt; pedidos, double total, FormaPago formaPago, List&lt;Promocion&gt; promocionesAplicadas, Mozo mozo) {</b>
+<b class="fc">&nbsp;        assert fecha != null : &quot;La fecha no puede ser nula&quot;;</b>
+<b class="fc">&nbsp;        assert mesa != null : &quot;La mesa no puede ser nula&quot;;</b>
+<b class="fc">&nbsp;        assert pedidos != null : &quot;La lista de pedidos no puede ser nula&quot;;</b>
+<b class="fc">&nbsp;        assert total &gt; 0 : &quot;El total debe ser mayor a 0&quot;;</b>
+<b class="fc">&nbsp;        assert formaPago != null : &quot;La forma de pago no puede ser nula&quot;;</b>
+<b class="fc">&nbsp;        assert mozo != null : &quot;El mozo no puede ser nulo&quot;;</b>
 &nbsp;
-<b class="nc">&nbsp;        this.fecha = fecha;</b>
-<b class="nc">&nbsp;        this.mesa = mesa;</b>
-<b class="nc">&nbsp;        this.pedidos = pedidos;</b>
-<b class="nc">&nbsp;        this.total = total;</b>
-<b class="nc">&nbsp;        this.formaPago = formaPago;</b>
-<b class="nc">&nbsp;        this.promocionesAplicadas = promocionesAplicadas;</b>
-<b class="nc">&nbsp;        this.mozo = mozo;</b>
+<b class="fc">&nbsp;        this.fecha = fecha;</b>
+<b class="fc">&nbsp;        this.mesa = mesa;</b>
+<b class="fc">&nbsp;        this.pedidos = pedidos;</b>
+<b class="fc">&nbsp;        this.total = total;</b>
+<b class="fc">&nbsp;        this.formaPago = formaPago;</b>
+<b class="fc">&nbsp;        this.promocionesAplicadas = promocionesAplicadas;</b>
+<b class="fc">&nbsp;        this.mozo = mozo;</b>
 &nbsp;
-<b class="nc">&nbsp;        assert this.fecha == fecha : &quot;La fecha no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.mesa == mesa : &quot;La mesa no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.pedidos == pedidos : &quot;La lista de pedidos no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.total == total : &quot;El total no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.formaPago == formaPago : &quot;La forma de pago no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.promocionesAplicadas == promocionesAplicadas : &quot;La lista de promociones no se asignó correctamente&quot;;</b>
-<b class="nc">&nbsp;        assert this.mozo == mozo : &quot;El mozo no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.fecha == fecha : &quot;La fecha no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.mesa == mesa : &quot;La mesa no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.pedidos == pedidos : &quot;La lista de pedidos no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.total == total : &quot;El total no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.formaPago == formaPago : &quot;La forma de pago no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.promocionesAplicadas == promocionesAplicadas : &quot;La lista de promociones no se asignó correctamente&quot;;</b>
+<b class="fc">&nbsp;        assert this.mozo == mozo : &quot;El mozo no se asignó correctamente&quot;;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    //METODOS AGREGADOS PARA EL TESTEO
+&nbsp;
+&nbsp;    public Date getFecha() {
+<b class="fc">&nbsp;        return fecha;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Mesa getMesa() {
+<b class="fc">&nbsp;        return mesa;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public List&lt;Pedido&gt; getPedidos() {
+<b class="fc">&nbsp;        return pedidos;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public double getTotal() {
+<b class="fc">&nbsp;        return total;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public FormaPago getFormaPago() {
+<b class="fc">&nbsp;        return formaPago;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public List&lt;Promocion&gt; getPromocionesAplicadas() {
+<b class="fc">&nbsp;        return promocionesAplicadas;</b>
+&nbsp;    }
+&nbsp;
+&nbsp;    public Mozo getMozo() {
+<b class="fc">&nbsp;        return mozo;</b>
 &nbsp;    }
 &nbsp;}
 </code>
@@ -168,7 +198,7 @@ Current scope:     <a href="../../index.html">all classes</a>
 
 <div class="footer">
     
-    <div style="float:right;">generated on 2022-11-30 08:03</div>
+    <div style="float:right;">generated on 2022-11-30 12:10</div>
 </div>
 </body>
 </html>

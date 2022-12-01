@@ -5,8 +5,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21f3cfaf-3f52-41d8-956b-81de66109125" name="Changes" comment="Se agrega test">
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/analisisCajaBlancaBuscarOperario" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/modelo/analisisCajaBlancaCerrarComanda.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-b.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-d.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-e.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-1/sources/source-f.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-1/sources/source-f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-a.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-b.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-c.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-c.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-2/sources/source-d.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-2/sources/source-d.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/sources/source-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/sources/source-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/sources/source-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/sources/source-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-3/sources/source-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-3/sources/source-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/index_SORT_BY_NAME_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/coverage report/ns-4/sources/source-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/coverage report/ns-4/sources/source-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modelo/TestSistemaComandas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelo/TestSistemaComandas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/modelo/TestSistemaOperarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/modelo/TestSistemaOperarios.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +111,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExportToHTMLSettings">
-    <option name="OPEN_IN_BROWSER" value="true" />
     <option name="OUTPUT_DIRECTORY" value="C:\Users\320 i5\Documents\Facultad\Taller de Programacion 1\Practica\Trabajo practico Final\pruebas-unitarias-modelo\coverage report" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -75,7 +171,7 @@
       <recent name="test.Mesa" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test in pruebas-unitarias-modelo">
+  <component name="RunManager" selected="JUnit.modelo in pruebas-unitarias-modelo">
     <configuration name="modelo in pruebas-unitarias-modelo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pruebas-unitarias-modelo" />
       <option name="TEST_OBJECT" value="directory" />
@@ -146,8 +242,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test in pruebas-unitarias-modelo" />
         <item itemvalue="JUnit.modelo in pruebas-unitarias-modelo" />
+        <item itemvalue="JUnit.test in pruebas-unitarias-modelo" />
         <item itemvalue="JUnit.testFactura" />
         <item itemvalue="JUnit.testSistemaPromocionProducto" />
         <item itemvalue="JUnit.testSistemaPedidos" />
@@ -303,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669820804547</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Se agrega test">
+      <created>1669820965700</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1669820965700</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,6 +435,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pruebas_unitarias_modelo$test_in_pruebas_unitarias_modelo.ic" NAME="test in pruebas-unitarias-modelo Coverage Results" MODIFIED="1669797223019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/pruebas_unitarias_modelo$modelo_in_pruebas_unitarias_modelo.ic" NAME="modelo in pruebas-unitarias-modelo Coverage Results" MODIFIED="1669806223417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/pruebas_unitarias_modelo$modelo_in_pruebas_unitarias_modelo.ic" NAME="modelo in pruebas-unitarias-modelo Coverage Results" MODIFIED="1669849276652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

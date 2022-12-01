@@ -2,9 +2,13 @@ package modelo;
 
 import excepciones.*;
 import modelos.Mesa;
+import modelos.Mozo;
 import modelos.Sistema;
+import modelos.Sueldo;
 import modelos.enums.ModoOperacion;
 import org.junit.*;
+
+import java.util.GregorianCalendar;
 
 public class TestSistemaComandas {
 
@@ -114,5 +118,25 @@ public class TestSistemaComandas {
         } catch (MesaInexistenteException e) {
             Assert.fail("Excepcion incorrecta emitida");
         }
+    }
+
+    /**
+     * Test creado apartir de analisis de cobertura y caja blanca
+     */
+    @Test
+    public void testCerrarComandaMesaEnListaDeAsignaciones() {
+        Mozo mozo = new Mozo("carlos", "Gomez", new GregorianCalendar(2000,5,12).getTime(), 0, new Sueldo(100));
+        try {
+            sistema.asignarMesa(mozo, mesa);
+            sistema.crearComanda(mesa);
+        } catch (MesaOcupadaException | MozoInexistenteException | MesaInexistenteException e) {
+            Assert.fail("Error al preparar el escenario");
+        }
+        try{
+            sistema.cerrarComanda(mesa);
+        } catch (MesaNoOcupadaException | MesaInexistenteException e) {
+            Assert.fail("Se emitio incorrectamente una excepcion");
+        }
+
     }
 }

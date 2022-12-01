@@ -1,0 +1,13 @@
+public Operario buscarOperario(String nombreUsuario) throws OperarioInexistenteException {
+    for (Operario operario : operarios) {
+        if (operario.getNombreUsuario().equals(nombreUsuario)) {
+            return operario;
+        }
+    }
+
+    if (administrador.getNombreUsuario().equals(nombreUsuario)) {
+        return administrador;
+    } else {
+        throw new OperarioInexistenteException(nombreUsuario);
+    }
+}
